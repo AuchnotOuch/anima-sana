@@ -1,8 +1,15 @@
-
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import Landing from './components/landing/Landing';
 
 function App() {
   return (
-    <h1>Hello from App!</h1>
+    <BrowserRouter>
+      <Switch>
+        <Route path='/welcome' exact={true}>
+          <Landing />
+        </Route>
+      </Switch>
+    </BrowserRouter>
   );
 }
 

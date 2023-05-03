@@ -1,0 +1,21 @@
+body {
+    background-color: #000080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3D3DCC;
+    color: white;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border-radius: 4px;
+}
