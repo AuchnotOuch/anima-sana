@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    height: 92vh;
+    background-color: rgba(182, 197, 207, 0.417);
+    border-radius: 4px;
+}
+
+.left-nav {
+    border: 1px solid black;
+    min-width: 120px;
+}
+
+.right-nav {
+    border: 1px solid black;
+    min-width: 120px;
+}
+
+.hub {
+    border: 1px solid black;
+    width: 100%;
+}
