@@ -5,13 +5,13 @@ const RightNav = () => {
     return (
         <div className='right-nav'>
             <div className='spaces-button-container'>
-                <button className='spaces-button'>Spaces</button>
+                <button className='spaces-button'><i className="fa-solid fa-hand-holding-hand"></i></button>
             </div>
-            <div className='friends-button-container'>
-                <button className='friends-button'>Friends</button>
+            <div className='post-button-container'>
+                <button className='post-button'><i className="fa-solid fa-plus"></i></button>
             </div>
             <div className='settings-button-container'>
-                <button className='settings-button'>Settings</button>
+                <button className='settings-button'><i className="fa-solid fa-gear"></i></button>
             </div>
         </div>
     )
