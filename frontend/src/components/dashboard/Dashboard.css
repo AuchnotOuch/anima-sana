@@ -10,11 +10,19 @@
 .left-nav {
     border: 1px solid black;
     min-width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .right-nav {
     border: 1px solid black;
     min-width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hub {
