@@ -1,0 +1,45 @@
+.sample-space-update {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    color: aliceblue;
+}
+
+.space-update-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.space-update-photo {
+    width: 50px;
+}
+
+.sample-health-update {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    color: aliceblue;
+}
+
+.health-update-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.health-update-photo {
+    margin-right: 5px;
+}

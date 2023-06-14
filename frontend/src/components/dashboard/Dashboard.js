@@ -1,12 +1,16 @@
 import React from 'react'
+import LeftNav from './LeftNav'
+import RightNav from './RightNav'
+import Hub from './Hub'
 import './Dashboard.css'
+
 const Dashboard = () => {
 
     return (
         <div className='container'>
-            <div className='left-nav'>left nav</div>
-            <div className='hub'>hub</div>
-            <div className='right-nav'>right nav</div>
+            <LeftNav />
+            <Hub />
+            <RightNav />
         </div>
     )
 }

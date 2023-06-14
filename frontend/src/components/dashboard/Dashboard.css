@@ -4,20 +4,36 @@
     width: 95vw;
     height: 92vh;
     background-color: rgba(182, 197, 207, 0.417);
-    border-radius: 4px;
+    border-radius: 5px;
 }
 
 .left-nav {
     border: 1px solid black;
     min-width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .right-nav {
     border: 1px solid black;
     min-width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .hub {
     border: 1px solid black;
     width: 100%;
+}
+
+button {
+    background: none;
+    border: none;
+    font-size: xx-large;
+    color: aliceblue;
+    cursor: pointer;
 }
