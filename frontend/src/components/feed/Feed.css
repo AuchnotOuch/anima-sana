@@ -106,3 +106,15 @@
 .post-update-photo>img {
     max-width: 20px;
 }
+
+.post-interaction-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.pulse-button,
+.comment-button,
+.share-button {
+    font-size: medium;
+}
