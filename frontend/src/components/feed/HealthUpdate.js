@@ -7,7 +7,7 @@ const HealthUpdates = () => {
     return (
         <div className="sample-health-update">
             <div className="health-update-banner">
-                <div className="health-update-photo"><i className="fa-solid fa-heart-pulse"></i></div>
+                <div className="health-update-photo"><i className="fa-solid fa-heart-pulse fa-beat"></i></div>
                 <div className='health-update-banner-text'>You're mood has been in an upward climb! See the details.</div>
             </div>
         </div>
