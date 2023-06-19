@@ -1,0 +1,12 @@
+.mood-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#board-title-input {
+    background: none;
+    border: none;
+    text-align: center;
+    font-size: larger;
+}
