@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Dashboard.css'
 
 const LeftNav = () => {
+    const [toggleHome, setToggleHome] = useState(false)
+
     return (
         <div className='left-nav'>
             <div className='home-button-container'>

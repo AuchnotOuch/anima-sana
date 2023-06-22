@@ -26,8 +26,26 @@
 }
 
 .hub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
     border: 1px solid black;
     width: 100%;
+}
+
+.hub-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.hub-right {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid aliceblue;
+    margin: 5px;
+    width: 50%;
+    background-color: rgba(240, 248, 255, 0.192);
 }
 
 button {
