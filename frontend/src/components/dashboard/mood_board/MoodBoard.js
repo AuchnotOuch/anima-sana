@@ -14,8 +14,7 @@ const MoodBoard = () => {
                             value={boardTitle}
                             onChange={e => setBoardTitle(e.target.value)}
                             id="board-title-input"
-                        >
-                        </input>
+                        />
                     </form>
                 </h2>
             </div>
